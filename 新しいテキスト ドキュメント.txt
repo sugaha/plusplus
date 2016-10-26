@@ -1,0 +1,55 @@
+public class novel extends Applet {
+
+  String scene[];
+
+  //グローバル変数
+  public void init() {//初期処理
+    scene = new String[1000];
+
+    LoadScene("prot2.txt");
+    addMouseListener(new MouseAction());
+  }//init()
+
+  public void paint(Graphics g){
+  }//paint()
+
+  public vois update(Graphics g){//再作画処理
+    paint(g);
+
+  }//update()
+
+  public void LoadScene(String filename){
+    BufferedReader ds = null;
+    String s = null;
+
+    for(int i=0; i<1000; i++){
+      scene[i] = null;
+    }
+
+    try{
+      InputStream is = new URL(getCodeBase(),filename).openStream();
+      InputStreamReader myin = new InputStreamReader(is);
+      ds = new BufferedReader(myin);
+    }catch(IO Exception e){
+      System.out.println("テキストファイル読み込みエラー" + filename);
+    }
+
+    for(int i = 0; i<1000;i++){
+      try{
+        s = ds.readLine();
+      }catch(IOException e){
+        System.out.println("テキストファイル読み込みエラー");
+      }
+      if(s==null)break;
+      scene[i]=s;
+    }
+
+    for(int i = 0; i<1000; i++){
+      if(scene[i] != null){
+        System.out.println(">" + scene[i] + "￥n");
+      }
+    }
+  }
+
+
+}
