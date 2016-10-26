@@ -64,6 +64,7 @@ var showText = cc.Layer.extend({
 });
 
 var game = cc.Layer.extend({
+  sprite:null,
     ctor: function() {
         this._super();
 
@@ -77,6 +78,10 @@ var game = cc.Layer.extend({
           //audioEngine.playMusic("res/bgm_main.mp3", true);
           //audioEngine.playMusic(res.umi_mp3, true);
         }
+                var BG = cc.Sprite.create(res.BG_2);
+                BG.setPosition(size.width / 2, size.height /2);
+                BG.setScale(0.6);
+                this.addChild(BG, 0);
 
                 var Message_win =
                 cc.Sprite.create(res.message_win_png);
@@ -104,10 +109,8 @@ var game = cc.Layer.extend({
                     this.scheduleUpdate();
 
 
-                      this.count++;
-                      return console.log(this.count);
-
-
+                      //this.count++;
+                      //return console.log(this.count);
 
         // タップイベントリスナーを登録する
         cc.eventManager.addListener({
@@ -120,7 +123,17 @@ var game = cc.Layer.extend({
 
         return true;
     },
-    
+/*
+    //一文字ずつ更新する
+    update:function (novelText) {
+    //文字の表示が終わったら更新を止める
+        if(this.count >= this.string.length){
+        this.unscheduleUpdate();
+    }
+    this.label.string = this.string.substring(0,this.count);
+		return console.log(this.count);
+		this.count++;
+},*/
 
     onTouchBegan: function(touch, event) {
         return true;
