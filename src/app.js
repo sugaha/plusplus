@@ -4,8 +4,8 @@ var gameScene = cc.Scene.extend({
         this._super();
         var layer = new game();
         this.addChild(layer);
-        var layer2 = new showText();
-        this.addChild(layer2);
+        //var layer2 = new showText();
+        //this.addChild(layer2);
     }
 });
 
@@ -18,7 +18,7 @@ var filename = "res/prot2.txt"
     });
 
 var novelText;
-var showText = cc.Layer.extend({
+/*var showText = cc.Layer.extend({
   //sprite:null,
   ctor:function(){
     //初期化
@@ -61,7 +61,7 @@ var showText = cc.Layer.extend({
     return console.log(str);
     this.count++;
   },
-});
+});*/
 
 var game = cc.Layer.extend({
   sprite:null,
@@ -78,17 +78,20 @@ var game = cc.Layer.extend({
           //audioEngine.playMusic("res/bgm_main.mp3", true);
           //audioEngine.playMusic(res.umi_mp3, true);
         }
+                //背景出力
                 var BG = cc.Sprite.create(res.BG_2);
                 BG.setPosition(size.width / 2, size.height /2);
                 BG.setScale(0.6);
                 this.addChild(BG, 0);
 
+                //メッセージウィンドウ出力
                 var Message_win =
                 cc.Sprite.create(res.message_win_png);
                 Message_win.setPosition(size.width / 2, size.height /5.5);
                 Message_win.setScale(0.62);
                 this.addChild(Message_win, 0);
 
+                //文章出力
                 var novelText = cc.LabelTTF.create(""+str2, "Arial", 12);
                     novelText.setPosition(size.width / 2, size.height /5.5);
                     novelText.setScale(1);
@@ -125,7 +128,7 @@ var game = cc.Layer.extend({
     },
 /*
     //一文字ずつ更新する
-    update:function (novelText) {
+    update:function (dt) {
     //文字の表示が終わったら更新を止める
         if(this.count >= this.string.length){
         this.unscheduleUpdate();

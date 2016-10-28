@@ -35,7 +35,7 @@ var noveltext = cc.Layer.extend({
 		// 0.05秒おきにupdateが呼ばれる
 		this.schedule(this.update, 0.05);
 	},
-	update:function(){
+	update:function(dt){
 		if( this.cnt > this.msg.length ) {
 			this.unschedule(this.update);
 		}
