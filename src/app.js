@@ -100,7 +100,7 @@ var mnage = cc.Layer.extend({
       var size = cc.director.getWinSize();
 
       //var labelWord = Data.node.getChildByName("Label");
-        this.labelWord = new cc.LabelTTF("", "MisakiGothic", 13);
+        this.labelWord = new cc.LabelTTF("", "MSゴシック", 13);
         this.labelWord.setPosition(240, 50);
       //自動折り返し範囲指定
         this.labelWord.setDimensions(cc.size(size.width - 100, 0));
@@ -128,7 +128,7 @@ var mnage = cc.Layer.extend({
       this.addChild(Message_win, 0);
 
       //文章出力
-      var novelText = cc.LabelTTF.create("" + "Data_json", "MisakiGothic", 12);
+      var novelText = cc.LabelTTF.create("" + "Data_json", "MSゴシック", 12);
       novelText.setPosition(size.width / 2, size.height / 5.5);
       novelText.setScale(1);
       this.addChild(novelText);
