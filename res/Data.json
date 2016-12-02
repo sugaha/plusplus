@@ -1,6 +1,9 @@
 [
 {"BG": "res/room4.jpg"},
 {"BGM": "res/BGM/bgm_toukou.mp3"},
+{"CHAR_L":"res/kyara/sou.png"},
+{"CHAR_R":"res/kyara/sumire.png"},
+{"CHAR":"res/kyara/anzu.png"},
 {"word":"菫「童話ってさ、何だってあんな悲惨な内容にしたんだろう？」"},
 {"word": "雲一つ無い澄み切った青空とは裏腹に、テレビからは通り魔殺人事件だなんて薄気味悪い報道が流れている、何の変哲もない一日の始まり。"},
 {"word": "演劇部に所属している姉『真城菫』はそんな事を唐突に呟いた。"},

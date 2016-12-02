@@ -1,0 +1,274 @@
+[
+       {"BGM": "res/BGM/bgm_toukou.mp3"},
+
+       {"word":"菫「童話ってさ、何だってあんな悲惨な内容にしたんだろう？」"},
+       {"BG": "res/room4.jpg"},
+       {"CHAR_L":"res/kyara/sou.png"},
+       {"CHAR_R":"res/kyara/sumire_R.png"},
+
+       {"word": "雲一つ無い澄み切った青空とは裏腹に、テレビからは通り魔殺人事件だなんて薄気味悪い報道が流れている、何の変哲もない一日の始まり。"},
+       {"BG": "res/room4.jpg"},
+       {"CHAR_L":"res/kyara/sou.png"},
+       {"CHAR_R":"res/kyara/sumire_R.png"},
+
+       {"word": "演劇部に所属している姉『真城菫』はそんな事を唐突に呟いた。"},
+       {"BG": "res/room4.jpg"},
+       {"CHAR_L":"res/kyara/sou.png"},
+       {"CHAR_R":"res/kyara/sumire_R.png"},
+
+       {"word": "創「突然なんだよ。他のメンバーと衝突でもした？」"},
+       {"BG": "res/room4.jpg"},
+       {"CHAR_L":"res/kyara/sou.png"},
+       {"CHAR_R":"res/kyara/sumire_R.png"},
+
+       {"word": "テーブルに置かれた熱々のトーストに手を付けようとした僕、『白鳥創』は渋々そう尋ねた。年功序列を家訓（姉だけが適用）とする我が家では姉の言葉は決して無視できないのだ。"},
+       {"BG": "res/room4.jpg"},
+       {"CHAR_L":"res/kyara/sou.png"},
+       {"CHAR_R":"res/kyara/sumire_R.png"},
+
+       {"word": "菫「や、そうじゃなくて。私達が今度やる演目、シンデレラって前言ったじゃん？台本作る為にネットで調べてく内にさ、知らなかったネタが出るわ出るわ。何か思い出が壊れちゃった気がしてさー」"},
+       {"BG": "res/room4.jpg"},
+       {"CHAR_L":"res/kyara/sou.png"},
+       {"CHAR_R":"res/kyara/sumire_R.png"},
+
+       {"word": "創「ふーん、例えば？」"},
+       { "BG": "res/room4.jpg"},
+       {"CHAR_L":"res/kyara/sou.png"},
+       {"CHAR_R":"res/kyara/sumire_R.png"},
+
+       {"word": "菫「今度やるシンデレラなんかはさ、シンデレラを虐める姉二人がガラスの靴を履くために足の一部を切り落としたり、その後結婚式に向かった二人の両目を小鳥がくり抜いたり」"},
+       { "BG": "res/room4.jpg"},
+       {"CHAR_L":"res/kyara/sou.png"},
+       {"CHAR_R":"res/kyara/sumire_R.png"},
+
+       {"word": "物鬱げに話しながら、手に持ったフォークで目玉焼きの黄身を潰し、ぐちゃぐちゃかき混ぜていく菫。"},
+       {"BG": "res/room4.jpg"},
+       {"CHAR_L":"res/kyara/sou.png"},
+       {"CHAR_R":"res/kyara/sumire_R.png"},
+
+       {"word": "やっている事は普通（マナーが良いとは言えないが）なのだが、その行為が凄惨な情景を掻き立ててしまう。個人的な話、食欲が失せる。"},
+       {"BG": "res/room4.jpg"},
+       {"CHAR_L":"res/kyara/sou.png"},
+       {"CHAR_R":"res/kyara/sumire_R.png"},
+
+       {"word": "確かに、諸説あるが童話の原作は意外と悲惨というか残虐というか、中々エグい作品が多い。"},
+       {"BG": "res/room4.jpg"},
+       {"CHAR_L":"res/kyara/sou.png"},
+       {"CHAR_R":"res/kyara/sumire_R.png"},
+
+       {"word": "シンデレラの他にも、白雪姫やヘンゼルとグレーテル、日本の童話や童謡さえ後味の悪い作品もある－－－－－が、彼女に今それを長々と語れる時間はない。何故なら、"},
+       {"BG": "res/room4.jpg"},
+       {"CHAR_L":"res/kyara/sou.png"},
+       {"CHAR_R":"res/kyara/sumire_R.png"},
+
+       {"word": "創「急がなくていいの？時間そろそろヤバい気がするけど」"},
+       {"BG": "res/room4.jpg"},
+       {"CHAR_L":"res/kyara/sou.png"},
+       {"CHAR_R":"res/kyara/sumire_R.png"},
+
+       {"word": "菫「え？ぁ、あああああああああああああああ！！？」"},
+       {"BG": "res/room4.jpg"},
+       {"CHAR_L":"res/kyara/sou.png"},
+       {"CHAR_R":"res/kyara/sumire_R.png"},
+
+       {"word": "菫「ヤバいヤバい！な、何で教えてくれなかったの！？」"},
+       {"BG": "res/room4.jpg"},
+       {"CHAR_L":"res/kyara/sou.png"},
+       {"CHAR_R":"res/kyara/sumire_R.png"},
+
+       {"word": "創「『年功序列だから姉の命令は絶対、話の腰を折るな。』って前に命令したのは姉さんだろ。第一、僕がトーストを手に取ろうとした時点でいつもの出発時間過ぎてたし」"},
+       {"BG": "res/room4.jpg"},
+       {"CHAR_L":"res/kyara/sou.png"},
+       {"CHAR_R":"res/kyara/sumire_R.png"},
+
+       {"word": "菫「ちくしょう、この弟姉に対する敬意が足りないッ！！」"},
+       {"BG": "res/room4.jpg"},
+       {"CHAR_L":"res/kyara/sou.png"},
+       {"CHAR_R":"res/kyara/sumire_R.png"},
+
+       {"word": "皿も片付けずにドタバタと洗面所に駆けていく我が愚姉。"},
+       {"BG": "res/room4.jpg"},
+       {"CHAR_L":"res/kyara/sou.png"},
+       {"CHAR_R":"res/kyara/toumei.png"},
+
+       {"word": "どうやら歯磨きと洗顔だけで済ませてしまう腹積もりらしい。"},
+       {"BG": "res/room4.jpg"},
+       {"CHAR_L":"res/kyara/sou.png"},
+       {"CHAR_R":"res/kyara/toumei.png"},
+
+       {"word": "年頃の女性としてメイクくらいしたらどうだと思ってしまうが、素顔が十分整っているので必要ないのかもしれない。こういう時本当に美人は得だなと感心する。"},
+       {"BG": "res/room4.jpg"},
+       {"CHAR_L":"res/kyara/sou.png"},
+       {"CHAR_R":"res/kyara/toumei.png"},
+
+       {"word": "ふとテレビを眺めてみるが、何時もの様に辛気臭い報道ばかりで消してしまう。"},
+       {"BG": "res/room4.jpg"},
+       {"CHAR_L":"res/kyara/sou.png"},
+       {"CHAR_R":"res/kyara/toumei.png"},
+
+       {"word": "テーブルには菫が片付けなかった皿の他に今日の朝刊や広告が置かれていて、その中にひと際分厚い冊子が紛れていた。"},
+       {"BG": "res/room4.jpg"},
+       {"CHAR_L":"res/kyara/sou.png"},
+       {"CHAR_R":"res/kyara/toumei.png"},
+
+       {"word": "気になって手に取って見ると、無地の表紙に書かれた『シンデレラ』という五文字。どうやら菫の所属する演劇部の台本らしい。"},
+       {"BG": "res/room4.jpg"},
+       {"CHAR_L":"res/kyara/sou.png"},
+       {"CHAR_R":"res/kyara/toumei.png"},
+
+       {"word": "創「おーい姉さん。今日は台本忘れるなよ」"},
+       {"BG": "res/room4.jpg"},
+       {"CHAR_L":"res/kyara/sou.png"},
+       {"CHAR_R":"res/kyara/toumei.png"},
+
+       {"word": "菫「わかってるぅーーーーー」"},
+       {"BG": "res/room4.jpg"},
+       {"CHAR_L":"res/kyara/sou.png"},
+       {"CHAR_R":"res/kyara/toumei.png"},
+
+       {"word": "洗面所から声が響いてくる。"},
+       {"BG": "res/room4.jpg"},
+       {"CHAR_L":"res/kyara/sou.png"},
+       {"CHAR_R":"res/kyara/toumei.png"},
+
+       {"word": "やはり男の僕より時間が掛かっている所から、どんなにガサツでも女性なんだなと再確認した。"},
+       {"BG": "res/room4.jpg"},
+       {"CHAR_L":"res/kyara/sou.png"},
+       {"CHAR_R":"res/kyara/toumei.png"},
+
+       {"word": "雀の涙程の量でしかないが、流石に自分が年頃の乙女だという自覚はあるらしい。"},
+       {"BG": "res/room4.jpg"},
+       {"CHAR_L":"res/kyara/sou.png"},
+       {"CHAR_R":"res/kyara/toumei.png"},
+
+       {"word": "創「・・・シンデレラ、ねぇ。」"},
+       {"BG": "res/room4.jpg"},
+       {"CHAR_L":"res/kyara/sou.png"},
+       {"CHAR_R":"res/kyara/toumei.png"},
+
+       {"word": "主演は菫らしいが、あの性格で務まるのか不安だ。"},
+       {"BG": "res/room4.jpg"},
+       {"CHAR_L":"res/kyara/sou.png"},
+       {"CHAR_R":"res/kyara/toumei.png"},
+
+       {"word": "父が再婚し、継母とその連れ子である姉たちにシンデレラはいじめられる。"},
+       {"BG": "res/room4.jpg"},
+       {"CHAR_L":"res/kyara/sou.png"},
+       {"CHAR_R":"res/kyara/toumei.png"},
+
+       {"word": "そんな中舞踏会が開かれ、行きたがるシンデレラは魔女に魔法を掛けられ綺麗なドレスと馬車で舞踏会へ向かう。"},
+       {"BG": "res/room4.jpg"},
+       {"CHAR_L":"res/kyara/sou.png"},
+       {"CHAR_R":"res/kyara/toumei.png"},
+
+       {"word": "シンデレラは王子に見初められるが、十二時の鐘の音に焦り、ガラスの靴を落としてしまう。"},
+       {"BG": "res/room4.jpg"},
+       {"CHAR_L":"res/kyara/sou.png"},
+       {"CHAR_R":"res/kyara/toumei.png"},
+
+       {"word": "王子はその靴を手掛かりにシンデレラを探し、最後には王子にシンデレラは見いだされ、妃として向かい入れられるーーーーー。"},
+       {"BG": "res/room4.jpg"},
+       {"CHAR_L":"res/kyara/sou.png"},
+       {"CHAR_R":"res/kyara/toumei.png"},
+
+       {"word": "その内容はいたって平凡な、良く言えば王道なシンデレラのストーリーだった。"},
+       {"BG": "res/room4.jpg"},
+       {"CHAR_L":"res/kyara/sou.png"},
+       {"CHAR_R":"res/kyara/toumei.png"},
+
+       {"word": "菫の云う『悲惨な内容』は一切本編には混ぜなかった様だ。"},
+       {"BG": "res/room4.jpg"},
+       {"CHAR_L":"res/kyara/sou.png"},
+       {"CHAR_R":"res/kyara/toumei.png"},
+
+       {"word": "菫「こら、人の物を勝手に見るんじゃないの」"},
+       {"BG": "res/room4.jpg"},
+       {"CHAR_L":"res/kyara/sou.png"},
+       {"CHAR_R":"res/kyara/toumei.png"},
+
+       {"word": "創「ならちゃんと仕舞っときなよ。前みたいに忘れて、慌てて電話しない様にさ」"},
+       {"BG": "res/room4.jpg"},
+       {"CHAR_L":"res/kyara/sou.png"},
+       {"CHAR_R":"res/kyara/sumire_R.png"},
+
+       {"word": "菫「むぐぐ…」"},
+       {"BG": "res/room4.jpg"},
+       {"CHAR_L":"res/kyara/sou.png"},
+       {"CHAR_R":"res/kyara/sumire_R.png"},
+
+       {"word": "呻く姉に台本を押し付け、洗面所へ向かう。もちろん、その前に食器を片付けておく事も忘れない。"},
+       {"BG": "res/room4.jpg"},
+       {"CHAR_L":"res/kyara/sou.png"},
+       {"CHAR_R":"res/kyara/sumire_R.png"},
+
+       {"word": "菫「……はぁ。まー良いや、このまま文句言ってると遅刻しちゃうし。今日は特に用事はないんだよね」"},
+       {"BG": "res/room4.jpg"},
+       {"CHAR_L":"res/kyara/sou.png"},
+       {"CHAR_R":"res/kyara/sumire_R.png"},
+
+       {"word": "創「ん。授業が終わったら真っ直ぐ帰るよ。多分」"},
+       {"BG": "res/room4.jpg"},
+       {"CHAR_L":"res/kyara/sou.png"},
+       {"CHAR_R":"res/kyara/sumire_R.png"},
+
+       {"word": "菫「曖昧ねぇ。夕飯作るの私なんだからはっきりして欲しいけど」"},
+       {"BG": "res/room4.jpg"},
+       {"CHAR_L":"res/kyara/sou.png"},
+       {"CHAR_R":"res/kyara/sumire_R.png"},
+
+       {"word": "創「しょうがないだろ。『不測の事態』っていうのがあるかもなんだから」"},
+       {"BG": "res/room4.jpg"},
+       {"CHAR_L":"res/kyara/sou.png"},
+       {"CHAR_R":"res/kyara/sumire_R.png"},
+
+       {"word": "菫「面倒な体質よねそれ……っとと、これ以上は不味いか。それじゃいってきます！あと、『人助け』は程々にね！！」"},
+       {"BG": "res/room4.jpg"},
+       {"CHAR_L":"res/kyara/sou.png"},
+       {"CHAR_R":"res/kyara/sumire_R.png"},
+
+       {"word": "その一言と共に慌てて菫が出ていった。"},
+       {"BG": "res/room4.jpg"},
+       {"CHAR_L":"res/kyara/sou.png"},
+       {"CHAR_R":"res/kyara/sumire_R.png"},
+
+       {"word": "するとこの部屋は一気に静けさを取り戻す。文字通り嵐の様な人だ。"},
+       {"BG": "res/room4.jpg"},
+       {"CHAR_L":"res/kyara/sou.png"},
+       {"CHAR_R":"res/kyara/sumire_R.png"},
+
+       {"word": "僕も長居はしていられない。早く準備をしよう。"},
+       {"BG": "res/room4.jpg"},
+       {"CHAR_L":"res/kyara/sou.png"},
+       {"CHAR_R":"res/kyara/sumire_R.png"},
+
+       {"word": "杏「おはよう白鳥君。お姉さん相変わらず元気だね。挨拶を返す暇もなかったよ」"},
+       {"BG": "res/BG_tugaku.jpg"},
+       {"CHAR_L":"res/kyara/toumei.png"},
+       {"CHAR_R":"res/kyara/anzu.png"},
+
+       {"word": "玄関から出ると、肩に掛かる程度の長さの茶髪を靡かせた少女が塀の上から顔を覗かせていた。"},
+       {"BG": "res/BG_tugaku.jpg"},
+       {"CHAR_L":"res/kyara/toumai.png"},
+       {"CHAR_R":"res/kyara/anzu.png"},
+
+       {"word": "彼女は灰村杏(はいむらあんず)。僕の通う高校のクラスメイトにして生徒会長を務める優等生だ。"},
+       {"BG": "res/BG_tugaku.jpg"},
+       {"CHAR_L":"res/kyara/toumei.png"},
+       {"CHAR_R":"res/kyara/anzu.png"},
+
+       {"word": "我が姉の奇行を中学時代から見ている為か、灰村はすっかり彼女の言動に適応してしまった。"},
+       {"BG": "res/BG_tugaku.jpg"},
+       {"CHAR_L":"res/kyara/toumei.png"},
+       {"CHAR_R":"res/kyara/anzu.png"},
+
+       {"word": "現役陸上選手も腰を抜かす様な瞬発力で飛び出していった姉を『相変わらず元気だね』で済ます程度には。"},
+       {"BG": "res/BG_tugaku.jpg"},
+       {"CHAR_L":"res/kyara/toumei.png"},
+       {"CHAR_R":"res/kyara/anzu.png"},
+
+       {"word": "創「おはよう灰村。別に気にしなくて良いんじゃないの？姉さんも慌ててたから多分殆ど脊髄反射で挨拶してたんじゃないかな。反射神経は無駄に良いからね」"},
+       {"BG": "res/BG_tugaku.jpg"},
+       {"CHAR_L":"res/kyara/sou.png"},
+       {"CHAR_R":"res/kyara/anzu.png"}
+       
+]

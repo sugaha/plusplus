@@ -1,55 +1,199 @@
-public class novel extends Applet {
+{"word": "やっている事は普通（マナーが良いとは言えないが）なのだが、その行為が凄惨な情景を掻き立ててしまう。個人的な話、食欲が失せる。",
+ "BG": "res/room4.jpg",
+ "CHAR_L":"res/kyara/sou.png",
+ "CHAR_R":"res/kyara/sumire_R.png"},
 
-  String scene[];
+{"word": "確かに、諸説あるが童話の原作は意外と悲惨というか残虐というか、中々エグい作品が多い。",
+ "BG": "res/room4.jpg",
+ "CHAR_L":"res/kyara/sou.png",
+ "CHAR_R":"res/kyara/sumire_R.png"},
 
-  //グローバル変数
-  public void init() {//初期処理
-    scene = new String[1000];
+{"word": "シンデレラの他にも、白雪姫やヘンゼルとグレーテル、日本の童話や童謡さえ後味の悪い作品もある－－－－－が、彼女に今それを長々と語れる時間はない。何故なら、",
+ "BG": "res/room4.jpg",
+ "CHAR_L":"res/kyara/sou.png",
+ "CHAR_R":"res/kyara/sumire_R.png"},
 
-    LoadScene("prot2.txt");
-    addMouseListener(new MouseAction());
-  }//init()
+{"word": "創「急がなくていいの？時間そろそろヤバい気がするけど」",
+  "BG": "res/room4.jpg",
+  "CHAR_L":"res/kyara/sou.png",
+  "CHAR_R":"res/kyara/sumire_R.png"},
 
-  public void paint(Graphics g){
-  }//paint()
+{"word": "菫「え？ぁ、あああああああああああああああ！！？」",
+  "BG": "res/room4.jpg",
+  "CHAR_L":"res/kyara/sou.png",
+  "CHAR_R":"res/kyara/sumire_R.png"},
 
-  public vois update(Graphics g){//再作画処理
-    paint(g);
+{"word": "菫「ヤバいヤバい！な、何で教えてくれなかったの！？」",
+  "BG": "res/room4.jpg",
+  "CHAR_L":"res/kyara/sou.png",
+  "CHAR_R":"res/kyara/sumire_R.png"},
 
-  }//update()
+{"word": "創「『年功序列だから姉の命令は絶対、話の腰を折るな。』って前に命令したのは姉さんだろ。第一、僕がトーストを手に取ろうとした時点でいつもの出発時間過ぎてたし」",
+  "BG": "res/room4.jpg",
+  "CHAR_L":"res/kyara/sou.png",
+  "CHAR_R":"res/kyara/sumire_R.png"},
 
-  public void LoadScene(String filename){
-    BufferedReader ds = null;
-    String s = null;
+{"word": "菫「ちくしょう、この弟姉に対する敬意が足りないッ！！」",
+  "BG": "res/room4.jpg",
+  "CHAR_L":"res/kyara/sou.png",
+  "CHAR_R":"res/kyara/sumire_R.png"},
 
-    for(int i=0; i<1000; i++){
-      scene[i] = null;
-    }
+{"word": "皿も片付けずにドタバタと洗面所に駆けていく我が愚姉。",
+  "BG": "res/room4.jpg",
+  "CHAR_L":"res/kyara/sou.png",
+  "CHAR_R":"res/kyara/toumei.png"},
 
-    try{
-      InputStream is = new URL(getCodeBase(),filename).openStream();
-      InputStreamReader myin = new InputStreamReader(is);
-      ds = new BufferedReader(myin);
-    }catch(IO Exception e){
-      System.out.println("テキストファイル読み込みエラー" + filename);
-    }
+{"word": "どうやら歯磨きと洗顔だけで済ませてしまう腹積もりらしい。",
+  "BG": "res/room4.jpg",
+  "CHAR_L":"res/kyara/sou.png",
+  "CHAR_R":"res/kyara/toumei.png"},
 
-    for(int i = 0; i<1000;i++){
-      try{
-        s = ds.readLine();
-      }catch(IOException e){
-        System.out.println("テキストファイル読み込みエラー");
-      }
-      if(s==null)break;
-      scene[i]=s;
-    }
+{"word": "年頃の女性としてメイクくらいしたらどうだと思ってしまうが、素顔が十分整っているので必要ないのかもしれない。こういう時本当に美人は得だなと感心する。",
+  "BG": "res/room4.jpg",
+  "CHAR_L":"res/kyara/sou.png",
+  "CHAR_R":"res/kyara/toumei.png"},
 
-    for(int i = 0; i<1000; i++){
-      if(scene[i] != null){
-        System.out.println(">" + scene[i] + "￥n");
-      }
-    }
-  }
+{"word": "ふとテレビを眺めてみるが、何時もの様に辛気臭い報道ばかりで消してしまう。",
+  "BG": "res/room4.jpg",
+  "CHAR_L":"res/kyara/sou.png",
+  "CHAR_R":"res/kyara/toumei.png"},
 
+{"word": "テーブルには菫が片付けなかった皿の他に今日の朝刊や広告が置かれていて、その中にひと際分厚い冊子が紛れていた。",
+  "BG": "res/room4.jpg",
+  "CHAR_L":"res/kyara/sou.png",
+  "CHAR_R":"res/kyara/toumei.png"},
 
-}
+{"word": "気になって手に取って見ると、無地の表紙に書かれた『シンデレラ』という五文字。どうやら菫の所属する演劇部の台本らしい。",
+  "BG": "res/room4.jpg",
+  "CHAR_L":"res/kyara/sou.png",
+  "CHAR_R":"res/kyara/toumei.png"},
+
+{"word": "創「おーい姉さん。今日は台本忘れるなよ」",
+  "BG": "res/room4.jpg",
+  "CHAR_L":"res/kyara/sou.png",
+  "CHAR_R":"res/kyara/toumei.png"},
+
+{"word": "菫「わかってるぅーーーーー」",
+  "BG": "res/room4.jpg",
+  "CHAR_L":"res/kyara/sou.png",
+  "CHAR_R":"res/kyara/sumire_R.png"},
+
+{"word": "洗面所から声が響いてくる。",
+  "BG": "res/room4.jpg",
+  "CHAR_L":"res/kyara/sou.png",
+  "CHAR_R":"res/kyara/toumei.png"},
+
+{"word": "やはり男の僕より時間が掛かっている所から、どんなにガサツでも女性なんだなと再確認した。雀の涙程の量でしかないが、流石に自分が年頃の乙女だという自覚はあるらしい。",
+  "BG": "res/room4.jpg",
+  "CHAR_L":"res/kyara/sou.png",
+  "CHAR_R":"res/kyara/toumei.png"},
+
+{"word": "創「・・・シンデレラ、ねぇ。」",
+  "BG": "res/room4.jpg",
+  "CHAR_L":"res/kyara/sou.png",
+  "CHAR_R":"res/kyara/toumei.png"},
+
+{"word": "主演は菫らしいが、あの性格で務まるのか不安だ。",
+  "BG": "res/room4.jpg",
+  "CHAR_L":"res/kyara/sou.png",
+  "CHAR_R":"res/kyara/toumei.png"},
+
+{"word": "洗面所から聞こえる水の流れる音をＢＧＭに、菫が出てくるまでの間台本を捲ってみる。",
+  "BG": "res/room4.jpg",
+  "CHAR_L":"res/kyara/sou.png",
+  "CHAR_R":"res/kyara/toumei.png"},
+
+{"word": "父が再婚し、継母とその連れ子である姉たちにシンデレラはいじめられる。",
+  "BG": "res/room4.jpg",
+  "CHAR_L":"res/kyara/sou.png",
+  "CHAR_R":"res/kyara/toumei.png"},
+
+{"word": "そんな中舞踏会が開かれ、行きたがるシンデレラは魔女に魔法を掛けられ綺麗なドレスと馬車で舞踏会へ向かう。",
+  "BG": "res/room4.jpg",
+  "CHAR_L":"res/kyara/sou.png",
+  "CHAR_R":"res/kyara/toumei.png"},
+
+{"word": "シンデレラは王子に見初められるが、十二時の鐘の音に焦り、ガラスの靴を落としてしまう。",
+  "BG": "res/room4.jpg",
+  "CHAR_L":"res/kyara/sou.png",
+  "CHAR_R":"res/kyara/toumei.png"},
+
+{"word": "王子はその靴を手掛かりにシンデレラを探し、最後には王子にシンデレラは見いだされ、妃として向かい入れられるーーーーー。",
+  "BG": "res/room4.jpg",
+  "CHAR_L":"res/kyara/sou.png",
+  "CHAR_R":"res/kyara/toumei.png"},
+
+{"word": "その内容はいたって平凡な、良く言えば王道なシンデレラのストーリーだった。",
+  "BG": "res/room4.jpg",
+  "CHAR_L":"res/kyara/sou.png",
+  "CHAR_R":"res/kyara/toumei.png"},
+
+{"word": "菫の云う『悲惨な内容』は一切本編には混ぜなかった様だ。",
+  "BG": "res/room4.jpg",
+  "CHAR_L":"res/kyara/sou.png",
+  "CHAR_R":"res/kyara/sumire_R.png"},
+
+{"word": "菫「こら、人の物を勝手に見るんじゃないの」",
+  "BG": "res/room4.jpg",
+  "CHAR_L":"res/kyara/sou.png",
+  "CHAR_R":"res/kyara/sumire_R.png"},
+
+{"word": "創「ならちゃんと仕舞っときなよ。前みたいに忘れて、慌てて電話しない様にさ」",
+  "BG": "res/room4.jpg",
+  "CHAR_L":"res/kyara/sou.png",
+  "CHAR_R":"res/kyara/sumire_R.png"},
+
+{"word": "菫「むぐぐ…」",
+  "BG": "res/room4.jpg",
+  "CHAR_L":"res/kyara/sou.png",
+  "CHAR_R":"res/kyara/sumire_R.png"},
+
+{"word": "呻く姉に台本を押し付け、洗面所へ向かう。もちろん、その前に食器を片付けておく事も忘れない。",
+  "BG": "res/room4.jpg",
+  "CHAR_L":"res/kyara/sou.png",
+  "CHAR_R":"res/kyara/sumire_R.png"},
+
+{"word": "菫「……はぁ。まー良いや、このまま文句言ってると遅刻しちゃうし。今日は特に用事はないんだよね」",
+  "BG": "res/room4.jpg",
+  "CHAR_L":"res/kyara/sou.png",
+  "CHAR_R":"res/kyara/sumire_R.png"},
+
+{"word": "創「ん。授業が終わったら真っ直ぐ帰るよ。多分」",
+  "BG": "res/room4.jpg",
+  "CHAR_L":"res/kyara/sou.png",
+  "CHAR_R":"res/kyara/sumire_R.png"},
+
+{"word": "菫「曖昧ねぇ。夕飯作るの私なんだからはっきりして欲しいけど」",
+  "BG": "res/room4.jpg",
+  "CHAR_L":"res/kyara/sou.png",
+  "CHAR_R":"res/kyara/sumire_R.png"},
+
+{"word": "創「しょうがないだろ。『不測の事態』っていうのがあるかもなんだから」",
+  "BG": "res/room4.jpg",
+  "CHAR_L":"res/kyara/sou.png",
+  "CHAR_R":"res/kyara/sumire_R.png"},
+
+{"word": "菫「面倒な体質よねそれ……っとと、これ以上は不味いか。それじゃいってきます！あと、『人助け』は程々にね！！」",
+  "BG": "res/room4.jpg",
+  "CHAR_L":"res/kyara/sou.png",
+  "CHAR_R":"res/kyara/sumire_R.png"},
+
+{"word": "その一言と共に慌てて菫が出ていった。",
+  "BG": "res/room4.jpg",
+  "CHAR_L":"res/kyara/sou.png",
+  "CHAR_R":"res/kyara/toumei.png"},
+
+{"word": "するとこの部屋は一気に静けさを取り戻す。文字通り嵐の様な人だ。",
+  "BG": "res/room4.jpg",
+  "CHAR_L":"res/kyara/sou.png",
+  "CHAR_R":"res/kyara/toumei.png"},
+
+{"story_id":"0"}
+{"word": "僕も長居はしていられない。早く準備をしよう。",
+  "BG": "res/room4.jpg",
+  "CHAR_L":"res/kyara/sou.png",
+  "CHAR_R":"res/kyara/toumei.png"}
+{"questionＡ": "太郎は右いく"},
+       {"questionＢ": "太郎は左いく"},
+       {"selectＡ": "5"},
+       {"selectＢ": "6"},

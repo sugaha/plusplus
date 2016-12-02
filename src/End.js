@@ -1,5 +1,5 @@
-//myScene.js
-var MyLayer = cc.Layer.extend({
+//EndScene.js
+var EndLayer = cc.Layer.extend({
     ctor: function() {
         this._super();
 
@@ -51,15 +51,14 @@ var MyLayer = cc.Layer.extend({
         if (audioEngine.isMusicPlaying()) {
           audioEngine.stopMusic();
         }
-        var FadeOut = cc.FadeOut.create(3,new gameScene);
-        cc.director.runScene(new gameScene());
+        cc.director.runScene(new EndScene());
     },
 });
 
-var MyScene = cc.Scene.extend({
+var EndScene = cc.Scene.extend({
     onEnter: function() {
         this._super();
-        var layer = new MyLayer();
+        var layer = new EndLayer();
         this.addChild(layer);
     }
 });
