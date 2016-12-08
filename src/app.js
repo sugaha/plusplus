@@ -186,13 +186,13 @@ var mnage = cc.Layer.extend({
       this.SetLabelString2(0);
 
       labelCHAR_L = new cc.Sprite.create(this.CHAR_L);
-      labelCHAR_L.setPosition(50, 9);
+      labelCHAR_L.setPosition(50, 0);
       labelCHAR_L.setScale(0.55);
       this.addChild(labelCHAR_L);
       this.SetLabelString3(0);
 
       labelCHAR_R = new cc.Sprite.create(this.CHAR_R);
-      labelCHAR_R.setPosition(280, 9);
+      labelCHAR_R.setPosition(280, 0);
       labelCHAR_R.setScale(0.55);
       this.addChild(labelCHAR_R);
       this.SetLabelString4(0);
